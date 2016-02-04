@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="mov.css"> 
+    <link rel="stylesheet" type="text/css" href="http://getbootstrap.com/2.3.2/assets/css/bootstrap.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.1.0/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="http://code.angularjs.org/angular-1.0.1.js"></script>
+    <script src="http://jsfiddle.net/5kzL4jL1/10/bower_components/angular-filter/dist/angular-filter.min.js"></script>
+</head>
+<body>
+ <div class="container-fluid">
+  <div class="row-fluid">
+    <div class="carousel slide" id="myCarousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <ul class="thumbnails">
+            <li class="span3">
+              <div class="caption" style="text-align:center">
+                <h5>The Matrix</h5>
+              </div>
+              <div class="thumbnail">
+                <img height="260" width="180" src="http://ia.media-imdb.com/images/M/MV5BMTkxNDYxOTA4M15BMl5BanBnXkFtZTgwNTk0NzQxMTE@._V1_SX640_SY720_.jpg" alt="">
+                <p><a class="btn btn-large btn-block" href="http://www.imdb.com/">View details »</a></p>
+              </div>
+            </li>
+            <li class="span3">
+              <div class="caption" style="text-align:center">
+                <h5>Never Lose Focus</h5>
+              </div>
+              <div class="thumbnail">
+                <img height="260" width="180" src="http://ia.media-imdb.com/images/M/MV5BMTUwODg2OTA4OF5BMl5BanBnXkFtZTgwOTE5MTE4MzE@._V1_SX640_SY720_.jpg" alt="">
+                <p><a class="btn btn-large btn-block" href="http://www.imdb.com/">View details »</a></p>
+              </div>
+            </li>
+            <li class="span3">
+              <div class="caption" style="text-align:center">
+                <h5>The Lazarus Effect</h5>
+              </div>
+              <div class="thumbnail">
+                <img height="260" width="180" src="http://ia.media-imdb.com/images/M/MV5BMjM2ODM1OTA0M15BMl5BanBnXkFtZTgwMDMxMDI5MzE@._V1_SX640_SY720_.jpg" alt="">
+                <p><a class="btn btn-large btn-block" href="http://www.imdb.com/">View details »</a></p>
+              </div>
+            </li>
+            <li class="span3">
+              <div class="caption" style="text-align:center">
+                <h5>Maps To The Stars</h5>
+              </div>
+              <div class="thumbnail">
+                <img height="260" width="180" src="http://ia.media-imdb.com/images/M/MV5BMTY3MjQwNzYyNV5BMl5BanBnXkFtZTgwNTY3NDQ5MzE@._V1_SX640_SY720_.jpg" alt="">
+                <p><a class="btn btn-large btn-block" href="http://www.imdb.com/">View details »</a></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="item">
+          <ul class="thumbnails">
+            <li class="span3">
+              <div class="caption" style="text-align:center">
+                <h5>The Matrix</h5>
+              </div>
+              <div class="thumbnail">
+                <img height="260" width="180" src="http://ia.media-imdb.com/images/M/MV5BMTkxNDYxOTA4M15BMl5BanBnXkFtZTgwNTk0NzQxMTE@._V1_SX640_SY720_.jpg" alt="">
+                <p><a class="btn btn-large btn-block" href="http://www.imdb.com/">View details »</a></p>
+              </div>
+            </li>
+            <li class="span3">
+              <div class="caption" style="text-align:center">
+                <h5>Never Lose Focus</h5>
+              </div>
+              <div class="thumbnail">
+                <img height="260" width="180" src="http://ia.media-imdb.com/images/M/MV5BMTUwODg2OTA4OF5BMl5BanBnXkFtZTgwOTE5MTE4MzE@._V1_SX640_SY720_.jpg" alt="">
+                <p><a class="btn btn-large btn-block" href="http://www.imdb.com/">View details »</a></p>
+              </div>
+            </li>
+            <li class="span3">
+              <div class="caption" style="text-align:center">
+                <h5>The Lazarus Effect</h5>
+              </div>
+              <div class="thumbnail">
+                <img height="260" width="180" src="http://ia.media-imdb.com/images/M/MV5BMjM2ODM1OTA0M15BMl5BanBnXkFtZTgwMDMxMDI5MzE@._V1_SX640_SY720_.jpg" alt="">
+                <p><a class="btn btn-large btn-block" href="http://www.imdb.com/">View details »</a></p>
+              </div>
+            </li>
+            <li class="span3">
+              <div class="caption" style="text-align:center">
+                <h5>Maps To The Stars</h5>
+              </div>
+              <div class="thumbnail">
+                <img height="260" width="180" src="http://ia.media-imdb.com/images/M/MV5BMTY3MjQwNzYyNV5BMl5BanBnXkFtZTgwNTY3NDQ5MzE@._V1_SX640_SY720_.jpg" alt="">
+                <p><a class="btn btn-large btn-block" href="http://www.imdb.com/">View details »</a></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="item">
+          <ul class="thumbnails">
+            <li class="span3">
+              <div class="caption" style="text-align:center">
+                <h5>The Matrix</h5>
+              </div>
+              <div class="thumbnail">
+                <img height="260" width="180" src="http://ia.media-imdb.com/images/M/MV5BMTkxNDYxOTA4M15BMl5BanBnXkFtZTgwNTk0NzQxMTE@._V1_SX640_SY720_.jpg" alt="">
+                <p><a class="btn btn-large btn-block" href="http://www.imdb.com/">View details »</a></p>
+              </div>
+            </li>
+            <li class="span3">
+              <div class="caption" style="text-align:center">
+                <h5>Never Lose Focus</h5>
+              </div>
+              <div class="thumbnail">
+                <img height="260" width="180" src="http://ia.media-imdb.com/images/M/MV5BMTUwODg2OTA4OF5BMl5BanBnXkFtZTgwOTE5MTE4MzE@._V1_SX640_SY720_.jpg" alt="">
+                <p><a class="btn btn-large btn-block" href="http://www.imdb.com/">View details »</a></p>
+              </div>
+            </li>
+            <li class="span3">
+              <div class="caption" style="text-align:center">
+                <h5>The Lazarus Effect</h5>
+              </div>
+              <div class="thumbnail">
+                <img height="260" width="180" src="http://ia.media-imdb.com/images/M/MV5BMjM2ODM1OTA0M15BMl5BanBnXkFtZTgwMDMxMDI5MzE@._V1_SX640_SY720_.jpg" alt="">
+                <p><a class="btn btn-large btn-block" href="http://www.imdb.com/">View details »</a></p>
+              </div>
+            </li>
+            <li class="span3">
+              <div class="caption" style="text-align:center">
+                <h5>Maps To The Stars</h5>
+              </div>
+              <div class="thumbnail">
+                <img height="260" width="180" src="http://ia.media-imdb.com/images/M/MV5BMTY3MjQwNzYyNV5BMl5BanBnXkFtZTgwNTY3NDQ5MzE@._V1_SX640_SY720_.jpg" alt="">
+                <p><a class="btn btn-large btn-block" href="http://www.imdb.com/">View details »</a></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a data-slide="prev" href="#myCarousel" class="left carousel-control">‹</a>
+      <a data-slide="next" href="#myCarousel" class="right carousel-control">›</a>
+    </div>
+  </div>
+</div>
+<div ng-app="myApp" ng-controller="MyCtrl">
+  <input class='form-control' style="margin-left:25px;width:750px;" ng-model='search' placeholder='Type to search...'>
+  <hr>
+
+  <div ng-repeat="category in movies | customFilter:search | groupBy:'category'  ">
+    <div class="row col-md-6" style="margin-left:25px">
+      <b>{{category}} ({{result.length}})</b>
+    </div>
+    <ul>
+      <ol ng-repeat="movie in result = (movies | customFilter:search | filter: {category: category})">
+      
+        <div class="container-fluid" style="margin-left:25px">
+          <div class="col-md-3" ng-init="rating = star.rating + 1"></div>
+          <div class="star-rating col-md-3" star-rating rating-value=movie.rating data-max="10" on-rating-selected="rateFunction(rating)"></div>
+          <div class="col-md-3">
+            <a href="http://www.imdb.com/find?q={{movie.title}}">{{movie.title}} ({{movie.rating}})</a>
+          </div>
+        </div>
+      </ol>
+    </ul>
+    <hr>
+    <br/>
+  </div>
+</div>
+    
+</body>
+</html>
+<script>
+    // JavaScript source code
+    var myApp = angular.module('myApp', []);
+
+    function MyCtrl($scope) {
+        $scope.movies = [
+              { title: 'The Matrix', description: "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.", imageUrl: "http://ia.media-imdb.com/images/M/MV5BMTkxNDYxOTA4M15BMl5BanBnXkFtZTgwNTk0NzQxMTE@._V1_SX640_SY720_.jpg", rating: 7.5, category: 'Action' },
+              { title: 'Focus', description: "In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop.", imageUrl: "http://ia.media-imdb.com/images/M/MV5BMTUwODg2OTA4OF5BMl5BanBnXkFtZTgwOTE5MTE4MzE@._V1_SX640_SY720_.jpg", rating: 6.9, category: 'Comedy' },
+              { title: 'The Lazarus Effect', description: "A group of medical students discover a way to bring dead patients back to life.", imageUrl: "http://ia.media-imdb.com/images/M/MV5BMjM2ODM1OTA0M15BMl5BanBnXkFtZTgwMDMxMDI5MzE@._V1_SX640_SY720_.jpg", rating: 6.4, category: 'Thriller' },
+              { title: 'Everly', description: "An action/thriller centered on a woman who faces down hitmen sent by her ex, a mob boss, while holed up in her apartment.", imageUrl: "http://ia.media-imdb.com/images/M/MV5BMjEyNTU4NTE5NV5BMl5BanBnXkFtZTgwNzY4NzIxNDE@._V1_SX640_SY720_.jpg", rating: 5.0, category: 'Action' },
+              { title: 'Maps to the Stars', description: "A tour into the heart of a Hollywood family chasing celebrity, one another and the relentless ghosts of their pasts.", imageUrl: "http://ia.media-imdb.com/images/M/MV5BMTY3MjQwNzYyNV5BMl5BanBnXkFtZTgwNTY3NDQ5MzE@._V1_SX640_SY720_.jpg", rating: 7.5, category: 'Drama' }
+        ];
+    }
+
+    var uniqueItems = function (data, key) {
+        var result = [];
+        for (var i = 0; i < data.length; i++) {
+            var value = data[i][key];
+            if (result.indexOf(value) == -1) {
+                result.push(value);
+            }
+        }
+        return result;
+    };
+
+    myApp.filter('groupBy',
+      function () {
+          return function (collection, key) {
+              if (collection === null) return;
+              return uniqueItems(collection, key);
+          };
+      });
+
+myApp.filter('customFilter', function() {
+  return function(items, string) {
+    var filtered = [];
+    var stringMatch = new RegExp(string, 'i');
+    for (var i = 0; i < items.length; i++) {
+      var item = items[i];
+      if (stringMatch.test(item.title) || stringMatch.test(item.category) || (item.rating >= string)) {
+        filtered.push(item);
+      }
+    }
+    return filtered;
+  };
+});
+	  
+
+
+    myApp.controller('RatingCtrl', function ($scope) {
+        $scope.rating = 5;
+        $scope.rateFunction = function (rating) {
+            alert('Rating selected - ' + rating);
+        };
+    })
+      .directive('starRating',
+        function () {
+            return {
+                restrict: 'A',
+                template: '<ul class="rating">' + '	<li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)">' + '\u2605' + '</li>' + '</ul>',
+                scope: {
+                    ratingValue: '=',
+                    max: '=',
+                    onRatingSelected: '&'
+                },
+                link: function (scope, elem, attrs) {
+                    var updateStars = function () {
+                        scope.stars = [];
+                        for (var i = 0; i < scope.max; i++) {
+                            scope.stars.push({
+                                filled: i < scope.ratingValue
+                            });
+                        }
+                    };
+
+                    scope.toggle = function (index) {
+                        scope.ratingValue = index + 1;
+                        scope.onRatingSelected({
+                            rating: index + 1
+                        });
+                    };
+
+                    scope.$watch('ratingValue',
+                      function (oldVal, newVal) {
+                          if (newVal) {
+                              updateStars();
+                          }
+                      }
+                    );
+                }
+            };
+        }
+      );
+    </script>
